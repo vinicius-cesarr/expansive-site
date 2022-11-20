@@ -1,0 +1,85 @@
+.letrasheader{
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+#justfi{
+    text-align: justify;
+}
+
+.fundo{
+    background-image: url(../img/montanhas-paisagem-do-lago-silhueta-horizontal-wallpaper-sunrise-e-ilustração-por-sunset-estilo-vetor-colorida-laca-horizonte-172970151.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 80px;
+}
+
+main section nav{
+    background-image: url(../img/pexels-philippe-donn-1257860.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+main section nav h1{
+    text-shadow: 1px 1px 1px white, -1px -1px 1px white;
+}
+main section nav h2{
+    text-shadow: 1px 1px 1px white, -1px -1px 1px white;
+}
+
+.asca{
+    display: grid;
+    gap: 20px
+}
+
+@media screen and (min-width: 576px) {
+    .asca {
+    grid-template-columns: repeat(3, 1fr);
+      }
+}
+
+@media screen and (min-width: 769px) {
+    .asca {
+    grid-template-columns: repeat(4, 1fr);
+      }
+}
+
+@media screen and (min-width: 993px) {
+    .asca {
+    grid-template-columns: repeat(6, 1fr);
+      }
+}
+
+#oval{
+    border-radius: 100%;
+    width: 70%;
+    height: 50%;
+    border: 0.5px solid black;
+    margin-top: 70px;
+}
+
+.botao{
+    background-color: white;
+    color: black;
+}
+
+.titupg{
+    color: rgb(0, 0, 0);
+}
+
+footer{
+    background-color: black;
+    padding: 10px 10px;
+    color: white;
+}
+
+#borda{
+    border-bottom: 1px solid;
+}
+ 
